@@ -61,11 +61,6 @@ function sn_79EscapeGame() {
 }
 
 
-function sn_display_79EscapeGame(){
-    // echo 'This is my page content';
-}
-
-
 //===================page editing user==========================//
 
 function hidded_submenu_page_edit_user() {

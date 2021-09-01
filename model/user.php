@@ -68,7 +68,6 @@ class user extends database {
         $bdd->bindparam(':id', $id, PDO::PARAM_INT);
         $bdd->execute();
         $result = $bdd->fetch(PDO::FETCH_OBJ);
-        // var_dump($result);
         return $result;
     }
 
